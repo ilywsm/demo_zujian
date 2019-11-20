@@ -4,5 +4,17 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10087/eureka
-
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/1703a?serverTimezone=UTC
+  jackson:
+    date-format: yyyy-MM-dd
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
