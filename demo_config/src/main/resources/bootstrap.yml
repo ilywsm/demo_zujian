@@ -8,4 +8,4 @@ spring:
       server:
         git:
           search-paths: config_repo
-          uri:
+          uri: https://github.com/ilywsm/demo_zujian.git
