@@ -1,6 +1,6 @@
 spring:
   application:
-    name: consummer-server
+    name: consumer-server
   cloud:
     config:
       profile: dev
