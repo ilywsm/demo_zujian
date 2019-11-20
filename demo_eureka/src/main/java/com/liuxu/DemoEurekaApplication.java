@@ -1,4 +1,4 @@
-package com.liuxu.demo_eureka;
+package com.liuxu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
