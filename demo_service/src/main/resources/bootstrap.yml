@@ -1,4 +1,8 @@
-
 spring:
   application:
-    name: consummmer-server
+    name: consummer-server
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://127.0.0.1:10080

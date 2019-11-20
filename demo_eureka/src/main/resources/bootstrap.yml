@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo-eureka
+    name: eureka-server
   cloud:
     config:
       label: master
