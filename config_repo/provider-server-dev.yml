@@ -3,8 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      d
-      efaultZone: http://127.0.0.1:10087/eureka
+      defaultZone: http://127.0.0.1:10087/eureka
 spring:
   datasource:
     url:  jdbc:mysql://localhost:3306/1703a?serverTimezone=UTC
