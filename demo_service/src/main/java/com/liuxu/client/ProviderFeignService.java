@@ -5,8 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 @FeignClient(name = "provider-server")
-@RequestMapping("/provider")
-public interface FeignClients {
-    @RequestMapping("/users")
-    public List<String> showUsers();
+public interface ProviderFeignService {
+    @RequestMapping("/provider/users")
+    public List<String> selectUser();
 }
