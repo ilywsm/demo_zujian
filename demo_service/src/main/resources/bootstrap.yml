@@ -5,4 +5,4 @@ spring:
     config:
       profile: dev
       label: master
-      uri: http://192.168.209.134:10080
+      uri: http://127.0.0.1:10080
